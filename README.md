@@ -15,10 +15,10 @@
 3) **Summarization**
   
     * **Extractive Text Summarization**
-      The extractive approach involves picking up the documents' most important phrases and lines. It then combines all the essential lines to create the summary. So, in this method,  every line, in summary, belongs to the original document, which is summarized.
+      The extractive approach involves picking up the documents' most important phrases and lines. It then combines all the essential lines to create the summary. So, in this method,  every line, in summary, belongs to the original document, which is summarized. Example TextRank algorithm.
     * **Abstractive Text Summarization**
       It is a more advanced method than extractive text summarization; many advancements keep coming out frequently—the abstractive approach based on deep learning. The process is to identify the important sections, interpret the context and reproduce in a new way. So, this method uses the term and new phrases, different from the original document, keeping the same points, just like how we summarize. The important thing is to note that note the sentences which are produced
-here, in summary, are generated, not just extracted from the original text.
+here, in summary, are generated, not just extracted from the original text. Example BART algorithm.
 
 4) **Sentiment Analysis**
     * We have used VADER and Textblob for sentiment analysis.
